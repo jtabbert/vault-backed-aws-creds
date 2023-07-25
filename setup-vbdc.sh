@@ -22,9 +22,6 @@ vault write aws/roles/my-role \
 }
 EOF
 
-vault write -f aws/config/rotate-root
-
-
 vault policy write vbdc-tfc-policy -<<EOF
 # Allow tokens to query themselves
 path "auth/token/lookup-self" {
