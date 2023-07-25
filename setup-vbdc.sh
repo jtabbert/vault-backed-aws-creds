@@ -47,12 +47,18 @@ path "aws/creds/*" {
 }
 EOF
 
+vault auth enable jwt
+
+vault write auth/jwt/config \
+    oidc_discovery_url="https://app.terraform.io" \
+    bound_issuer="https://app.terraform.io"
+
 vault write auth/jwt/role/vbdc-tfc-role -<<EOF
 {
   "bound_claims_type": "glob",
   "user_claim": "terraform_full_workspace",
   "bound_audiences": "vault.workload.identity",
-  "token_policies":"jt-tfc-policy",
+  "token_policies":"vbdc-tfc-policy",
   "bound_claims": {
     "sub": ["organization:$TFC_ORG:project:Default Project:workspace:VBDC:run_phase:*"]
   },
