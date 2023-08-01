@@ -57,7 +57,7 @@ vault write auth/jwt/role/vbdc-tfc-role -<<EOF
   "bound_audiences": "vault.workload.identity",
   "token_policies":"vbdc-tfc-policy",
   "bound_claims": {
-    "sub": ["organization:$TFC_ORG:project:Default Project:workspace:VBDC:run_phase:*"]
+    "sub": ["organization:$TFC_ORG:project:Default Project:workspace:test-vault:run_phase:*"]
   },
   "token_ttl": "1h",
   "role_type": "jwt"
