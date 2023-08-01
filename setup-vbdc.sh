@@ -44,8 +44,6 @@ path "aws/creds/*" {
 }
 EOF
 
-vault auth enable jwt
-
 vault write auth/jwt/config \
     oidc_discovery_url="https://app.terraform.io" \
     bound_issuer="https://app.terraform.io"
