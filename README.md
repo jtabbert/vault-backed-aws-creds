@@ -52,3 +52,4 @@ echo $VAULT_ADDR
 echo $VAULT_TOKEN
 ```
 11. If you want to re-use the "test-vault" workspace for a future demo, in TFC queue a destroy plan.  This will save you from having to re-input the Variables :) 
+12. You will need to update the **TFC_VAULT_ADDR** variable in the workspace as this will change each time you restart the track
