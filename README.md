@@ -26,7 +26,7 @@ cd vault-backed-aws-creds
 ```
 bash setup-vbdc.sh
 ```
-6. In your TFC Org create a workspace called "test-vault" in the Default Project
+6. In your TFC Org create a workspace called **"test-vault"** in the **Default Project**
 
 7. In the "test-vault" workspace add the following Variables
 
