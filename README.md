@@ -10,11 +10,11 @@ https://play.instruqt.com/HashiCorp-EA/invite/ecaifwjjw47v/tracks/vault-dynamic-
 2. Clone the git repo with the command below
 ```
 git clone https://github.com/jtabbert/vault-backed-aws-creds
-
+```
 3. Create an environment variable called TFC_ORG
 ```
 export TFC_ORG="YourTFC-OrgHere"
-
+```
 4. In your TFC Org create a workspace called "test-vault" in the Default Project
 
 5. In the "test-vault" workspace add the following Variables
