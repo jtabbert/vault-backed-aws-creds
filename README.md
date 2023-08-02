@@ -13,7 +13,7 @@ git clone https://github.com/jtabbert/vault-backed-aws-creds
 
 3. Create an environment variable called TFC_ORG
 ```
-export TFC_ORG=<<TypeTFCOrg>>
+export TFC_ORG=<TypeTFCOrg>v
 
 4. In your TFC Org create a workspace called "test-vault" in the Default Project
 
