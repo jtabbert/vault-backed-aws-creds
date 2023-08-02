@@ -7,13 +7,13 @@ This guide is intended to be used with the folling private Instruqt track
 https://play.instruqt.com/HashiCorp-EA/invite/ecaifwjjw47v/tracks/vault-dynamic-creds-tfc
 
 1. Complete the track up until the challenge "Set required environment variables in TFC".  This is currently required because skipping is not enabled on the track.  You will need to create the "networking" workspace with the academy org, this is only to advance forward it will not be used once created.
-2. Clone the git repo with the command below
+2. Create an environment variable called TFC_ORG
+```
+export TFC_ORG=YourTFC-OrgHere
+```
+3. Clone the git repo with the command below
 ```
 git clone https://github.com/jtabbert/vault-backed-aws-creds
-```
-3. Create an environment variable called TFC_ORG
-```
-export TFC_ORG="YourTFC-OrgHere"
 ```
 4. Change directory
 ```
