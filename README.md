@@ -21,7 +21,7 @@ export TFC_ORG="YourTFC-OrgHere"
 
 | Variable  | Value  | Type  |
 |---|---|---|
-| TFC_VAULT_ADDR  | Run echo $VAULT_ADDR  | env  |
+| TFC_VAULT_ADDR  | Run echo $VAULT_ADDR in Instruqt  | env  |
 | TFC_VAULT_BACKED_AWS_AUTH  | true  | env  |
 | TFC_VAULT_BACKED_AWS_AUTH_TYPE | iam_user  |  env |
 | TFC_VAULT_BACKED_AWS_RUN_VAULT_ROLE  | my-role  | env  |
