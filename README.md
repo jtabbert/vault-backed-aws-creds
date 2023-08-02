@@ -15,9 +15,17 @@ git clone https://github.com/jtabbert/vault-backed-aws-creds
 ```
 export TFC_ORG="YourTFC-OrgHere"
 ```
-4. In your TFC Org create a workspace called "test-vault" in the Default Project
+4. Change directory
+```
+cd vault-backed-aws-creds
+```
+5. Run the setup script
+```
+bash setup-vbdc.sh
+```
+6. In your TFC Org create a workspace called "test-vault" in the Default Project
 
-5. In the "test-vault" workspace add the following Variables
+7. In the "test-vault" workspace add the following Variables
 
 | Variable  | Value  | Type  |
 |---|---|---|
@@ -31,6 +39,6 @@ export TFC_ORG="YourTFC-OrgHere"
 | region  | us-east-1  | terraform  |
 | prefix  | hashicat  | terraform  |
 
-6. In the vault-test workspace use the VCS driven workflow and link it to the "hashicat-aws" repo.  A fork of this repo is probably in your GitHub account from previous workshops
+8. In the vault-test workspace use the VCS driven workflow and link it to the "hashicat-aws" repo.  A fork of this repo is probably in your GitHub account from previous workshops
 
-7. Update the "deploy_app.sh" file in the hashicat-aws repo and watch Vault-Backed Dynamic Credentials in action!
+9. Update the "deploy_app.sh" file in the hashicat-aws repo and watch Vault-Backed Dynamic Credentials in action!
