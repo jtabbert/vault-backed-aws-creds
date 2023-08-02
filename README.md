@@ -28,4 +28,9 @@ export TFC_ORG="YourTFC-OrgHere"
 | TFC_VAULT_BACKED_AWS_SLEEP_SECONDS  | 30  | env  |
 | TFC_VAULT_PROVIDER_AUTH  | true  | env  |
 | TFC_VAULT_RUN_ROLE  | vbdc-tfc-role  | env  |
-|   |   |   |
+| region  | us-east-1  | terraform  |
+| prefix  | hashicat  | terraform  |
+
+6. In the vault-test workspace use the VCS driven workflow and link it to the "hashicat-aws" repo.  A fork of this repo is probably in your GitHub account from previous workshops
+
+7. Update the "deploy_app.sh" file in the hashicat-aws repo and watch Vault-Backed Dynamic Credentials in action!
