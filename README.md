@@ -48,3 +48,4 @@ bash setup-vbdc.sh
 echo $VAULT_ADDR
 echo $VAULT_TOKEN
 ```
+11. If you want to re-use the "test-vault" workspace for a future demo, in TFC queue a destroy plan.  This will save you from having to re-input the Variables :) 
