@@ -44,7 +44,7 @@ bash setup-vbdc.sh
 
 8. In the vault-test workspace use the VCS driven workflow and link it to the "hashicat-aws" repo.  A fork of this repo is probably in your GitHub account from previous workshops
 
-9. Update the "deploy_app.sh" file in the hashicat-aws repo and watch Vault-Backed Dynamic Credentials in action!
+9. Update the "deploy_app.sh" file in the **hashicat-aws** repo and watch Vault-Backed Dynamic Credentials in action!  You can make any simple change to this file to trigger a run in TFC
 
 10. To view the leases being created in the Vault, run the following commands to get the VAULT_ADDR and VAULT_TOKEN
 ```
