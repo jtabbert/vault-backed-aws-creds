@@ -10,7 +10,7 @@ https://play.instruqt.com/HashiCorp-EA/invite/ecaifwjjw47v/tracks/vault-dynamic-
 
 1. Complete the track up until the challenge "Set required environment variables in TFC".  This is currently required because skipping is not enabled on the track.  You will need to create the "networking" workspace with the academy org.  The academy org will have a name similar to **acdmy-vault-creds-gbt2wtcmg1ns** and is created automatically.  Creating the "networking" workspace is only to progress forward in the track and it will not be used for anything.
 
-2. Create an environment variable called TFC_ORG
+2. Once you have reached "Set required environment variables in TFC".  Create an environment variable called TFC_ORG, you will do this in the Shell - NOT TFC. 
 ```
 export TFC_ORG=YourTFC-OrgHere
 ```
