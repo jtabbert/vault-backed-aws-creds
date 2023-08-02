@@ -42,7 +42,7 @@ bash setup-vbdc.sh
 | region  | us-east-1  | terraform  |
 | prefix  | hashicat  | terraform  |
 
-8. In the vault-test workspace use the VCS driven workflow and link it to the "hashicat-aws" repo.  A fork of this repo is probably in your GitHub account from previous workshops
+8. In the **"vault-test"** workspace use the VCS driven workflow and link it to the "hashicat-aws" repo.  A fork of this repo is probably in your GitHub account from previous workshops
 
 9. Update the "deploy_app.sh" file in the **hashicat-aws** repo and watch Vault-Backed Dynamic Credentials in action!  You can make any simple change to this file to trigger a run in TFC
 
