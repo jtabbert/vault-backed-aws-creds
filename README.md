@@ -1,8 +1,8 @@
-# vault-backed-aws-creds
+# Vault-backed AWS Dynamic Credentials
 
 **Instructions**
 
-This guide is intended to be used with the folling private Instruqt track
+This guide is intended to be used with the folling private Instruqt track.  This guide also assumes your TFC Org has a VCS provider configured, and the hashicat-aws repo in your account.
 
 https://play.instruqt.com/HashiCorp-EA/invite/ecaifwjjw47v/tracks/vault-dynamic-creds-tfc
 
