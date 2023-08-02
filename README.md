@@ -6,6 +6,8 @@ This guide is intended to be used with the folling private Instruqt track.  This
 
 https://play.instruqt.com/HashiCorp-EA/invite/ecaifwjjw47v/tracks/vault-dynamic-creds-tfc
 
+The Instruqt track uses credentials stored in the KV secrets engine.  In this guide the setup script enables the AWS secrets engine and allow us to demo dynamic credentials.
+
 1. Complete the track up until the challenge "Set required environment variables in TFC".  This is currently required because skipping is not enabled on the track.  You will need to create the "networking" workspace with the academy org, this is only to advance forward it will not be used once created.
 2. Create an environment variable called TFC_ORG
 ```
