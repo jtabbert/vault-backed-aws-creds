@@ -19,4 +19,13 @@ export TFC_ORG="YourTFC-OrgHere"
 
 5. In the "test-vault" workspace add the following Variables
 
-
+| Variable  | Value  | Type  |
+|---|---|---|
+| TFC_VAULT_ADDR  | Run echo $VAULT_ADDR  | env  |
+| TFC_VAULT_BACKED_AWS_AUTH  | true  | env  |
+| TFC_VAULT_BACKED_AWS_AUTH_TYPE | iam_user  |  env |
+| TFC_VAULT_BACKED_AWS_RUN_VAULT_ROLE  | my-role  | env  |
+| TFC_VAULT_BACKED_AWS_SLEEP_SECONDS  | 30  | env  |
+| TFC_VAULT_PROVIDER_AUTH  | true  | env  |
+| TFC_VAULT_RUN_ROLE  | vbdc-tfc-role  | env  |
+|   |   |   |
